@@ -20,8 +20,8 @@
 	<link rel="stylesheet" href="./js/bootstrap/css/bootstrap-responsive.min.css" />
 
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
-    <style type="text/css"></style>
-    
+	<style type="text/css"></style>
+	
 
 	<!-- Includes FontAwesome -->
 	<link rel="stylesheet" href="./css/font-awesome/css/font-awesome.min.css" />
@@ -98,44 +98,50 @@
 														<input id="login-username" type="text" class="form-control" name="username" value="" placeholder="username or email">                                        
 													</div>
 												
-											<div style="margin-bottom: 25px" class="input-group">
+											<div style="margin-bottom: 20px" class="input-group">
 														<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
 														<input id="login-password" type="password" class="form-control" name="password" placeholder="password">
 													</div>
 													
-											<div class="input-group">
-													  <div class="checkbox">
-														<label>
-														  <input id="login-remember" type="checkbox" name="remember" value="1"> Remember me
-														</label>
-													  </div>
-													</div>
+											<div class="input-group style="margin-top:6px"">
+												<div class="checkbox">
+													<label>
+													  <input id="login-remember" type="checkbox" name="remember" value="1"> Remember me
+													</label>
+												</div>
+											</div>
 
 
 												<div style="margin-top:10px" class="form-group">
 													<!-- Button -->
+														<div style="margin-left:17px;">
+												    		<button type="button" class="col-xs-offset-1 col-xs-9 btn btn-success"> &nbsp Login  </button>
+												    	</div>
 
-													<div class="col-sm-12 controls">
-													  <a id="btn-login" href="#" class="btn btn-success">Login  </a>
-													  <a id="btn-fblogin" href="#" class="btn btn-primary">Login with Facebook</a>
-
-													</div>
+													    <div >
+															<div class="col-xs-offset-1 col-xs-5">
+																<button type="button" class="btn btn-primary fb"><i class="icon-facebook-sign icon-large"></i>  Login with Facebook</button>
+															</div>
+															
+															<div class="col-xs-offset-0 col-xs-5 gmail">
+																<button type="button" class="btn btn-primary"><i class="icon-google-plus-sign icon-large gmail"></i> &nbsp  login with Gmail </button>
+															</div> 	
+														</div>	
 												</div>
 
+											
 
 												<div class="form-group">
-													<div class="col-md-12 control">
-														<div style="border-top: 1px solid#888; padding-top:15px; font-size:85%" >
-															Don't have an account! 
-														<a href="#" onClick="$('#loginbox').hide(); $('#signupbox').show()">
-															Sign Up Here
-														</a>
-														</div>
-													</div>
-												</div>    
+				                                    <div class="col-md-12 control signup">
+				                                        <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%" >
+				                                            Don't have an account! 
+				                                        <a href="#" onClick="$('#loginbox').hide(); $('#signupbox').show()">
+				                                            Sign Up Here
+				                                        </a>
+				                                        </div>
+				                                    </div>
+				                                </div>    
 											</form>     
-
-
 
 										</div>                     
 									</div>  
@@ -228,5 +234,5 @@
 
 </body>
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 </html>
